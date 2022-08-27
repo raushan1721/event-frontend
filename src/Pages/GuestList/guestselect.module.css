@@ -1,0 +1,36 @@
+.wrapper {
+  margin: 20px 50px;
+  background-color: #fff;
+}
+
+.top {
+  background: rgba(195, 222, 233, 0.712);
+  padding: 20px 20px 0;
+}
+.tablectrl {
+  display: flex;
+  gap: 30px;
+}
+
+.tablectrl p {
+  font-size: 20px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.warning {
+  color: red;
+  margin: 5px;
+}
+.btn {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.btn button {
+  color: black;
+  margin-left: 30px;
+  width: 200px;
+  padding: 5px 0;
+  background: rgba(195, 222, 233, 0.712);
+}

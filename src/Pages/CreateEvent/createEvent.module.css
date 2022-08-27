@@ -1,0 +1,39 @@
+.createEvent {
+  padding: 10px 50px;
+  background-image: url("../../media/images/addEvent.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+}
+.title {
+  font-size: 2.8em;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form {
+  padding: 10px 70px;
+
+}
+.form form {
+    background: #fff;
+  border: 1px solid black;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.form form button {
+  width: 150px;
+  height: 42px;
+  font-weight: 600;
+  color: #fff;
+  background: black;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.2em;
+}

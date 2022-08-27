@@ -1,0 +1,27 @@
+.guests {
+  margin: 20px 50px;
+  position: relative;
+}
+.addBtn {
+  background: green;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 10px;
+  width:130px;
+}
+.addBtn:hover {
+  opacity: 0.8;
+}
+.list {
+  margin-top: 10px;
+  overflow-x: auto;
+}
+
+.scol{
+width:80px;
+text-align: center;
+}
+.members{
+  width:120px;
+}

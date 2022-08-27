@@ -1,0 +1,11 @@
+.edit {
+  padding: 20px 40px;
+}
+
+.form {
+  max-width: 800px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+background:#fff;
+}

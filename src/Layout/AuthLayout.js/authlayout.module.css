@@ -1,0 +1,79 @@
+.authlayout {
+  width: 100vw;
+  margin-bottom: 50px;
+  background:'#fff';
+  background-image:url('../../media/images/background.webp');
+  height:100vh;
+}
+.navbar {
+  height: auto;
+  padding: 0 100px;
+  padding-top: 20px;
+}
+
+.title {
+  font-size: 4.5em;
+  font-weight: bolder;
+}
+
+.subTitle {
+  display: block;
+  font-weight: 600;
+  font-size: 40px;
+  padding: 0 100px;
+  padding-top: 20px;
+  line-height: 45px;
+}
+
+.authOptions {
+  padding-top: 40px;
+}
+
+.authOptions ul li {
+  list-style: none;
+  font-size: 1.3em;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 2px 10px;
+}
+.authOptions ul li:hover {
+  background: black;
+  color: white;
+  border-radius: 3px;
+}
+
+.authForm {
+  padding: 0 100px;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 1050px) {
+  .navbar {
+    background: black;
+    color: #fff;
+    padding: 15px;
+  }
+  .title {
+    font-size: 1.5em;
+  }
+  .subTitle {
+    display: none;
+  }
+  .authOptions {
+    padding: 0;
+  }
+  .authForm {
+    padding: 0 30px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .authlayout,
+  .authForm {
+    font-size: 70%;
+  }
+  .authOptions ul li {
+    padding: 2px 5px;
+  }
+}

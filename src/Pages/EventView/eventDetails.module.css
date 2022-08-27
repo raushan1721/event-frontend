@@ -1,0 +1,92 @@
+.eventDetails {
+  padding: 10px 50px;
+  width: 100%;
+}
+.top {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.title {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.link {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.link p {
+  border-radius: 5px;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+.box {
+  height: 100px;
+  max-width: 500px;
+  flex: 6 1 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.box .name,
+.Vbox .name {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+
+}
+.box .count,
+.Vbox .count {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight:bold;
+}
+
+.votesBox {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-top: 20px;
+  overflow-x: hidden;
+}
+.votesBox p {
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 10px 15px;
+}
+.Vbox {
+  border-radius:3px;
+  color:#fff;
+  height: 120px;
+  max-width: 500px;
+  flex: 6 1 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.coming{
+background:rgb(23, 180, 17);
+}
+.maybe{
+  background:rgb(142, 180, 5);
+}
+.notcoming{
+  background:rgb(255, 102, 0);
+}
+/* @media screen and (max-width: 1050px) {
+.box{
+    flex:12;
+}
+  } */
